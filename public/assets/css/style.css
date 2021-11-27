@@ -1,0 +1,68 @@
+/**
+ * Pharmacy System
+ * 
+ * author: Mohamed Yousef
+ * contact: engineer.mohamed.yossef@gmail.com
+ * version: 1.0.0
+ */
+
+/* ************ [Global] ************ */ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 120px;
+}
+
+a {
+    text-decoration: none !important;
+}
+/* ************ [Global] ************ */ 
+
+/* ************ [Header] ************ */
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.search-box {
+    width: 400px;
+}
+.search-results {
+    width: 100%;
+    padding-right: 5px !important;
+}
+.search-results ul {
+    list-style: none;
+    max-height: 150px;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+    z-index: 1000;
+    overflow-y: scroll;
+}
+.search-results ul li {
+    display: block;
+    width: 350px;
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    font-size: 1rem;
+}
+/* ************ [Header] ************ */
+
+/* ************ [Main] ************ */
+main {
+    min-height: 500px;
+}
+
+.card-title {
+    height: 50px !important;
+}
+/* ************ [Main] ************ */
